@@ -1,0 +1,12 @@
+{
+  "format": "prefixagent-suite-v1",
+  "note": "One default instance, INPUTS ONLY: an input-arrival profile plus an arrival-aware depth budget L_max. No reference score and no solution ship with it. Bring your own instances by adding entries with the same four fields (id, N, L_max, arrival) -- or point --suite at your own file.",
+  "instances": [
+    {
+      "id": "default-n32-L9",
+      "N": 32,
+      "L_max": 9,
+      "arrival": [1, 2, 1, 1, 1, 3, 2, 3, 4, 2, 3, 1, 2, 3, 2, 1, 2, 2, 1, 2, 1, 1, 2, 2, 2, 2, 1, 3, 2, 4, 1, 2]
+    }
+  ]
+}

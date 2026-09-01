@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prefixagent"
+version = "0.2.0"
+description = "PrefixAgent: an LLM-powered design framework for efficient prefix adder optimization (training-free release)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+prefixagent = "prefixagent.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["prefixagent*"]
+
+[tool.setuptools.package-data]
+prefixagent = ["suites/*.json"]
